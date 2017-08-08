@@ -21,25 +21,89 @@ body {font: normal 13px/150% "Open Sans", Helvetica, Arial, sans-serif}
 */
 
 
-body {font: normal 13px/150% "Open Sans", Helvetica, Arial, sans-serif}
+body {font: normal 16px/150% "Open Sans", Helvetica, Arial, sans-serif; line-height: 150%;}
 
 /* Headings */
 h1, h2, h3, h4, h5, h6
 {font-family:"Montserat", "kaffeesatz", Helvetica, Sans-Serif}
 
-h1 {font-size: 2em;}
-h2 {font-size: 1.8em;}
-h3 {font-size: 1.6em;}
-h4 {font-size: 1.3em;}
-h5 {font-size: 1em}
-h6 {font-size: .95em;}
+h1 {font-size: 2.2em; color: #d83f3f; text-align: center; margin-bottom: 2em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 1em;}
+
+.container {width: 1300px;}
+
+#toc
+{
+	float: right;
+	width: 750px;
+	margin-left: 35px;
+	font-size: 1em;
+	line-height: 1.7em;
+}
+
+#toc + div + p {clear: both;}
 
 /* Images */
+.evolution-map-head
+{
+	width: 220px;
+	text-align: center;
+	font-weight: bold;
+	font-size: .9em;}
 
-img.floatleft
+.evolution-map {
+	width: 220px;
+	float: left;
+	margin: 7px 7px 7px 0;
+}
+
+.evolution-map-caption
+{
+	width: 220px;
+	float: left;
+	font-size: .85em;
+	text-align: center;
+}
+
+/* Positioning */
+
+.float-left-img-med
+{
+	float: left;
+	width: 400px;
+	margin: 7px 7px 7px 0;
+}
+
+.float-left-230px
+{float: left;
+width: 230px;
+margin: 7px 7px 7px 0;}
+
+.float-left-170px
+{float: left;
+width: 170px;
+margin: 7px 7px 7px 0;}
+
+.pagination {
+	border-top: 1px solid black; 
+	font-size: .95em;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+ul.subsections
+{
+	font-size: .95em;
+	list-style-type: none;
+}
+
+ul.smallish
+{font-size: .9em;}
 
 
+.caption
 
-
-
-
+{font-size: .85em;
+}
