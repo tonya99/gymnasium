@@ -107,3 +107,10 @@ ul.smallish
 
 {font-size: .85em;
 }
+
+.subspecies-table
+{
+	width: 98%;
+}
+
+.subspecies-table th {background: #e7e7ce;}
